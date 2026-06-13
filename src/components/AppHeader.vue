@@ -27,7 +27,7 @@ function closeMenu() {
 <template>
   <div
     id="pg-progress"
-    class="fixed top-0 left-0 h-[3px] z-60 bg-accent transition-[width] duration-150"
+    class="fixed top-0 left-0 h-[3px] z-60 bg-accent transition-[width] duration-150 pointer-events-none"
     :style="{ width: progressWidth || '0%' }"
   />
 
