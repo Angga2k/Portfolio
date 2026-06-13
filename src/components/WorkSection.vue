@@ -89,7 +89,7 @@ const projects: Project[] = [
         :class="{ 'sm:border-r border-border': i % 2 === 0 }"
       >
         <ScrollReveal :delay="i % 2 === 0 ? 0 : 0.08">
-          <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8 lg:py-9 border-b border-border" :class="{ 'border-b-0': i >= projects.length - 2 }">
+          <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-6 md:py-8 lg:py-9 border-b border-border" :class="{ 'sm:border-b-0': i >= projects.length - 2 }">
             <span class="font-mono text-[10px] sm:text-[11px] md:text-[12px] text-subtle">{{ proj.category }}</span>
             <h3 class="font-bricolage font-bold text-[18px] sm:text-[20px] md:text-[23px] lg:text-[26px] tracking-[-.02em] mt-2 md:mt-2.5 mb-2 md:mb-2.5">{{ proj.title }}</h3>
             <p class="text-[13px] sm:text-[14px] md:text-[15px] leading-[1.6] md:leading-[1.55] text-muted m-0 mb-3 md:mb-4">{{ proj.description }}</p>

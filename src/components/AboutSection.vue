@@ -3,7 +3,7 @@ import ScrollReveal from './ScrollReveal.vue'
 </script>
 
 <template>
-  <section id="about" class="border-b border-border grid grid-cols-1 lg:grid-cols-[1fr_1.4fr]">
+  <section id="about" class="border-b border-border grid grid-cols-1 lg:grid-cols-2">
     <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-12 lg:py-[54px] border-b lg:border-b-0 lg:border-r border-border">
       <ScrollReveal>
         <div class="font-mono text-[11px] sm:text-[12px] md:text-[13px] tracking-[.12em] text-accent">01 — TENTANG</div>

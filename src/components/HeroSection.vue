@@ -60,13 +60,13 @@ useSpotlight(heroRef)
       <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-r border-border">
         <StatCounter :value="4" suffix="+" label="TAHUN BELAJAR" :isAccent="true" />
       </div>
-      <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-r border-border md:border-r">
+      <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] md:border-r border-border">
         <StatCounter :value="10" suffix="+" label="PROYEK DIBANGUN" />
       </div>
-      <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-r border-border border-t md:border-t-0">
+      <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-r border-t md:border-t-0 border-border">
         <StatCounter :value="1" :pad="true" label="MAGANG INDUSTRI" />
       </div>
-      <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-t md:border-t-0">
+      <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-t md:border-t-0 border-border">
         <StatCounter :value="1" :pad="true" label="PROGRAM ML · BANGKIT" />
       </div>
     </div>

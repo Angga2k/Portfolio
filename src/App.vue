@@ -42,9 +42,8 @@ function handleSplashComplete() {
         <WorkSection />
         <SkillsSection />
         <ContactSection />
+        <AppFooter />
       </div>
-
-      <AppFooter />
     </div>
   </Transition>
 </template>
