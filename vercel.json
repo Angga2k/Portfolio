@@ -1,4 +1,5 @@
 {
+  "name": "whoangga2k",
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "devCommand": "npm run dev",

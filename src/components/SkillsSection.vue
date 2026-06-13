@@ -20,19 +20,19 @@ const tools = [
 
 <template>
   <section id="skills" class="border-b border-border">
-    <div class="px-12 pt-12 pb-0 font-mono text-[13px] tracking-[.12em] text-accent">
+    <div class="px-4 sm:px-6 md:px-8 lg:px-12 pt-10 md:pt-12 pb-0 font-mono text-[11px] sm:text-[12px] md:text-[13px] tracking-[.12em] text-accent">
       04 — KEAHLIAN TEKNIS
     </div>
 
-    <div class="grid grid-cols-[1fr_1.6fr] border-t border-border mt-[26px]">
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_1.6fr] border-t border-border mt-6 md:mt-[26px]">
       <ScrollReveal>
-        <div class="px-12 py-[42px] border-r border-border">
-          <div class="font-mono text-[12px] tracking-[.1em] text-subtle mb-4">BIDANG FOKUS</div>
-          <div class="flex flex-col gap-3.5">
+        <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-8 md:py-10 lg:py-[42px] border-b lg:border-b-0 lg:border-r border-border">
+          <div class="font-mono text-[10px] sm:text-[11px] md:text-[12px] tracking-[.1em] text-subtle mb-4">BIDANG FOKUS</div>
+          <div class="flex flex-col gap-2.5 md:gap-3 lg:gap-3.5">
             <div
               v-for="area in focusAreas"
               :key="typeof area === 'string' ? area : area.name"
-              class="font-bricolage font-bold text-[24px] tracking-[-.02em]"
+              class="font-bricolage font-bold text-[18px] sm:text-[20px] md:text-[22px] lg:text-[24px] tracking-[-.02em]"
               :class="typeof area === 'object' && area.muted ? 'text-subtle' : 'text-text'"
             >
               {{ typeof area === 'string' ? area : area.name }}
@@ -41,13 +41,13 @@ const tools = [
         </div>
       </ScrollReveal>
       <ScrollReveal :delay="0.1">
-        <div class="px-12 py-[42px]">
-          <div class="font-mono text-[12px] tracking-[.1em] text-subtle mb-[18px]">STACK &amp; TOOLS</div>
-          <div class="flex gap-2.5 flex-wrap">
+        <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-8 md:py-10 lg:py-[42px]">
+          <div class="font-mono text-[10px] sm:text-[11px] md:text-[12px] tracking-[.1em] text-subtle mb-4 md:mb-[18px]">STACK &amp; TOOLS</div>
+          <div class="flex gap-1.5 sm:gap-2 md:gap-2.5 flex-wrap">
             <span
               v-for="tool in tools"
               :key="tool"
-              class="font-mono text-[14px] text-text border border-border-light px-[15px] py-[9px] transition-colors duration-200 hover:border-accent hover:text-accent"
+              class="font-mono text-[11px] sm:text-[12px] md:text-[13px] lg:text-[14px] text-text border border-border-light px-2.5 sm:px-3 md:px-4 lg:px-[15px] py-1.5 sm:py-2 md:py-2.5 lg:py-[9px] transition-colors duration-200 hover:border-accent hover:text-accent"
             >
               {{ tool }}
             </span>
