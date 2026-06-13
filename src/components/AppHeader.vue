@@ -31,7 +31,7 @@ function closeMenu() {
     :style="{ width: progressWidth || '0%' }"
   />
 
-  <header class="sticky top-0 z-50 bg-surface/82 backdrop-blur-[12px] border-b border-border">
+  <header class="sticky top-0 z-50 bg-surface/82 backdrop-blur-[12px] border-b border-border" style="position: relative;">
     <div class="max-w-[1280px] mx-auto flex items-center justify-between px-4 sm:px-6 md:px-7 py-3.5">
       <a
         href="#home"
@@ -139,6 +139,8 @@ function closeMenu() {
 /* Hamburger Menu - Force Display with CSS */
 .hamburger-btn {
   display: block !important;
+  position: relative !important;
+  z-index: 70 !important;
 }
 
 .desktop-nav {
