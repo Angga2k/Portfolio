@@ -135,8 +135,8 @@ function closeMenu() {
   </header>
 </template>
 
-<style scoped>
-/* Hamburger Menu - Force Display with CSS */
+<style>
+/* Global - tidak pakai scoped agar hash tidak berubah */
 .hamburger-btn {
   display: block !important;
   position: relative !important;
@@ -156,8 +156,10 @@ function closeMenu() {
     display: flex !important;
   }
 }
+</style>
 
-/* Menu Animations */
+<style scoped>
+/* Menu Animations - tetap scoped */
 .menu-slide-enter-active,
 .menu-slide-leave-active {
   transition: opacity 0.3s ease, transform 0.3s ease;
