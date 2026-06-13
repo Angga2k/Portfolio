@@ -16,6 +16,11 @@
   --font-bricolage: 'Bricolage Grotesque', sans-serif;
   --font-mono: 'Space Mono', monospace;
 
+  --breakpoint-sm: 40rem;
+  --breakpoint-md: 48rem;
+  --breakpoint-lg: 64rem;
+  --breakpoint-xl: 80rem;
+
   --animate-marquee: pg-marquee 26s linear infinite;
   --animate-blink: pg-blink 1.1s step-end infinite;
   --animate-pop: pc-pop 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
