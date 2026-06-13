@@ -58,7 +58,7 @@ function closeMenu() {
       </a>
       
       <!-- Desktop Navigation -->
-      <nav v-show="false" class="items-center gap-4 xl:gap-[26px]" :class="{ 'hidden lg:flex': false }">
+      <nav class="desktop-nav items-center gap-4 xl:gap-[26px]">
         <a
           v-for="item in navItems"
           :key="item.section"
@@ -79,10 +79,8 @@ function closeMenu() {
       
       <!-- Mobile Hamburger Button -->
       <button
-        v-show="true"
         @click="toggleMenu"
-        class="p-2 text-text hover:text-accent transition-colors"
-        :class="{ 'lg:hidden': false }"
+        class="hamburger-btn p-2 text-text hover:text-accent transition-colors"
         :aria-label="isMenuOpen ? 'Close menu' : 'Open menu'"
       >
         <svg
@@ -138,6 +136,26 @@ function closeMenu() {
 </template>
 
 <style scoped>
+/* Hamburger Menu - Force Display with CSS */
+.hamburger-btn {
+  display: block !important;
+}
+
+.desktop-nav {
+  display: none !important;
+}
+
+@media (min-width: 1024px) {
+  .hamburger-btn {
+    display: none !important;
+  }
+  
+  .desktop-nav {
+    display: flex !important;
+  }
+}
+
+/* Menu Animations */
 .menu-slide-enter-active,
 .menu-slide-leave-active {
   transition: opacity 0.3s ease, transform 0.3s ease;
