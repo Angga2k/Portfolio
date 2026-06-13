@@ -60,9 +60,9 @@ function reset() {
 
 const contacts = [
   { label: 'Email', value: 'anggadwikurniawan6@gmail.com', href: 'mailto:anggadwikurniawan6@gmail.com' },
-  { label: 'LinkedIn', value: 'in/anggadwk', href: 'https://www.linkedin.com/in/anggadwk' },
-  { label: 'GitHub', value: '@username', href: '#' },
-  { label: 'Instagram', value: '@username', href: '#' },
+  { label: 'LinkedIn', value: 'in/anggadwk', href: 'https://www.linkedin.com/in/anggadwk/' },
+  { label: 'GitHub', value: '@Angga2k', href: 'https://github.com/Angga2k' },
+  { label: 'Instagram', value: '@a.nggadwk_', href: 'https://www.instagram.com/a.nggadwk_' },
 ]
 </script>
 
