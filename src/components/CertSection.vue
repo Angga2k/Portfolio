@@ -27,7 +27,7 @@ const certs: Certification[] = [
         :class="{ 'md:border-r border-border': i % 2 === 0 }"
       >
         <ScrollReveal :delay="i % 2 === 0 ? 0 : 0.06">
-          <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-5 md:py-6 border-t border-border flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-4">
+          <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-5 md:py-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2 sm:gap-4" :class="['border-t border-border', { 'border-b border-border': i === certs.length - 1 || (i === certs.length - 2 && certs.length % 2 === 0) }]">
             <span class="text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] text-[#e6e3dc]">{{ cert.name }}</span>
             <span class="font-mono text-[10px] md:text-[11px] text-subtle whitespace-nowrap">{{ cert.issuer }}</span>
           </div>

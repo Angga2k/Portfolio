@@ -108,7 +108,7 @@ function closeMenu() {
     <Transition name="menu-slide">
       <div
         v-if="isMenuOpen"
-        class="lg:hidden fixed inset-0 top-[57px] bg-surface z-[55] overflow-y-auto"
+        class="lg:hidden fixed inset-0 top-[57px] bg-surface z-[65] overflow-y-auto"
       >
         <nav class="flex flex-col p-6 gap-1">
           <a
