@@ -58,7 +58,7 @@ function closeMenu() {
       </a>
       
       <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-center gap-4 xl:gap-[26px]" style="display: none;">
+      <nav v-show="false" class="items-center gap-4 xl:gap-[26px]" :class="{ 'hidden lg:flex': false }">
         <a
           v-for="item in navItems"
           :key="item.section"
@@ -79,10 +79,11 @@ function closeMenu() {
       
       <!-- Mobile Hamburger Button -->
       <button
+        v-show="true"
         @click="toggleMenu"
-        class="block lg:hidden p-2 text-text hover:text-accent transition-colors"
+        class="p-2 text-text hover:text-accent transition-colors"
+        :class="{ 'lg:hidden': false }"
         :aria-label="isMenuOpen ? 'Close menu' : 'Open menu'"
-        style="display: block !important;"
       >
         <svg
           v-if="!isMenuOpen"
