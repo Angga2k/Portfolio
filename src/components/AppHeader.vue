@@ -82,6 +82,7 @@ function closeMenu() {
         @click="toggleMenu"
         class="hamburger-btn p-2 text-text hover:text-accent transition-colors"
         :aria-label="isMenuOpen ? 'Close menu' : 'Open menu'"
+        :style="{ display: 'block !important', position: 'relative', zIndex: 70 }"
       >
         <svg
           v-if="!isMenuOpen"
