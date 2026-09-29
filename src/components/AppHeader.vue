@@ -31,7 +31,7 @@ function closeMenu() {
     :style="{ width: progressWidth || '0%' }"
   />
 
-  <header class="sticky top-0 z-50 bg-surface/82 backdrop-blur-[12px] border-b border-border" style="position: relative;">
+  <header class="sticky top-0 z-50 bg-surface/82 backdrop-blur-[12px] border-b border-border">
     <div class="max-w-[1280px] mx-auto flex items-center justify-between px-4 sm:px-6 md:px-7 py-3.5">
       <a
         href="#home"
@@ -105,11 +105,13 @@ function closeMenu() {
       </button>
     </div>
     
-    <!-- Mobile Menu Overlay -->
+  </header>
+
+  <Teleport to="body">
     <Transition name="menu-slide">
       <div
         v-if="isMenuOpen"
-        class="lg:hidden fixed inset-0 top-[57px] bg-surface z-[65] overflow-y-auto"
+        class="lg:hidden fixed inset-0 top-[57px] sm:top-[63px] bg-surface z-[65] overflow-y-auto"
       >
         <nav class="flex flex-col p-6 gap-1">
           <a
@@ -133,7 +135,7 @@ function closeMenu() {
         </nav>
       </div>
     </Transition>
-  </header>
+  </Teleport>
 </template>
 
 <style>
