@@ -10,28 +10,40 @@ interface Experience {
 
 const experiences: Experience[] = [
   {
-    period: 'MAR 2025 — JUL 2025',
+    period: 'OKT 2025 — SEKARANG',
+    title: 'Junior Fullstack Developer',
+    company: 'MudahBayar · Solo',
+    tags: ['Maintenance & Optimasi', 'API Tiket Pesawat, Kereta, PELNI', 'Booking, Pembayaran & E-ticket'],
+  },
+  {
+    period: 'JAN 2025 — SEKARANG',
     title: 'Backend Developer',
-    company: 'Diskominfo Banyuwangi',
-    tags: ['Pengembangan Backend', 'Pengembangan API', 'Integrasi Database', 'Pemeliharaan Sistem'],
+    company: 'Program Studi Informatika · Universitas Jember',
+    tags: ['Sistem Informasi Akreditasi', 'Perencanaan Produk', 'Software Development Life Cycle'],
   },
   {
-    period: 'SEP 2024 — MAR 2025',
-    title: 'Peserta Cohort Machine Learning',
-    company: 'Bangkit Academy 2024 · didukung Google, GoTo, Traveloka',
-    tags: ['Machine Learning', 'Deep Learning', 'TensorFlow', 'Analisis Data', 'Deployment Model'],
+    period: 'MEI 2026 — JUN 2026',
+    title: 'Fullstack Developer',
+    company: 'MudahBayar · Solo',
+    tags: ['Integrasi API RajaBiller', 'Fitur Tiketing'],
   },
   {
-    period: '2024',
-    title: 'Kepala Sub-Divisi Teknologi',
-    company: 'HMIF UNEJ',
-    tags: ['Manajemen Proyek', 'Koordinasi Tim', 'Pengembangan Website'],
+    period: 'SEP 2024 — DES 2024',
+    title: 'ML/AI Developer · Bangkit Academy',
+    company: 'Program Studi Independen Bersertifikat Batch 7',
+    tags: ['Model CNN', 'Aplikasi Mobile AgroVision', 'Machine Learning'],
   },
   {
-    period: '2023 — 2024',
-    title: 'Staf Teknologi',
-    company: 'HMIF UNEJ',
-    tags: [],
+    period: 'JAN 2025 — DES 2025',
+    title: 'Kepala Sub Divisi Teknologi',
+    company: 'HMIF Universitas Jember',
+    tags: ['Koordinasi Tim', 'Perencanaan Proyek', 'Kolaborasi Antar Divisi'],
+  },
+  {
+    period: 'JAN 2023 — DES 2024',
+    title: 'Staf Sub Divisi Teknologi',
+    company: 'HMIF Universitas Jember',
+    tags: ['3+ Website Organisasi', '6+ Kepanitiaan', 'Tim Media & Publikasi'],
   },
 ]
 </script>

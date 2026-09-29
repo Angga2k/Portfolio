@@ -11,37 +11,43 @@ interface Project {
 }
 
 const featured: Project = {
-  category: 'UNGGULAN · RISET & AI',
-  title: 'Waste Overload Detection using YOLOv8',
-  description: 'Deteksi area overload pada tempat pembuangan sampah sementara terbuka menggunakan computer vision dan deep learning — fokus riset saya saat ini.',
-  tags: ['Python', 'YOLOv8', 'OpenCV', 'Ultralytics'],
+  category: 'UNGGULAN · MOBILE & MACHINE LEARNING',
+  title: 'AgroVision',
+  description: 'Aplikasi mobile AgroVision memakai model CNN untuk kebutuhan petani bakau, dikembangkan dalam program Bangkit Academy 2024.',
+  tags: ['Machine Learning', 'CNN', 'Mobile'],
   isFeatured: true,
 }
 
 const projects: Project[] = [
   {
     category: 'PENGEMBANGAN WEB',
-    title: 'HMIF Website',
-    description: 'Informasi organisasi, manajemen acara, dan data anggota untuk HMIF UNEJ.',
-    tags: ['Next.js', 'React', 'MySQL', 'Tailwind'],
+    title: 'Company Profile HMIF',
+    description: 'Website profil Himpunan Mahasiswa Informatika Universitas Jember.',
+    tags: ['ReactJS', 'Frontend'],
   },
   {
     category: 'FULL STACK',
-    title: 'Job Portal System',
-    description: 'Autentikasi, daftar lowongan, lamaran, dan manajemen perusahaan.',
-    tags: ['React', 'Node.js', 'Express', 'MySQL'],
+    title: 'Shortlink HMIF',
+    description: 'Layanan shortlink yang dikembangkan untuk kebutuhan Himpunan Mahasiswa Informatika.',
+    tags: ['Laravel', 'Backend'],
   },
   {
-    category: 'MOBILE / AI',
-    title: 'AgroVision',
-    description: 'Eksperimen computer vision terapan untuk bidang pertanian.',
-    tags: ['TensorFlow', 'OpenCV', 'Python'],
+    category: 'PENDIDIKAN',
+    title: 'Hajar-IF',
+    description: 'Website bahan belajar untuk mahasiswa Program Studi Informatika, dikerjakan bersama tim IT HMIF.',
+    tags: ['ReactJS', 'Laravel', 'Koordinasi Tim'],
   },
   {
-    category: 'MOBILE · REST',
-    title: 'Flutter Todo & REST APIs',
-    description: 'Aplikasi tugas berbasis Flutter beserta kumpulan proyek REST API dan tugas kuliah.',
-    tags: ['Flutter', 'Express', 'PostgreSQL'],
+    category: 'SISTEM INFORMASI',
+    title: 'Website Program Studi Informatika',
+    description: 'Pengembangan sistem informasi untuk mendukung proses akreditasi Program Studi Informatika UNEJ.',
+    tags: ['Backend', 'SDLC'],
+  },
+  {
+    category: 'FULLSTACK · TICKETING',
+    title: 'Fitur Tiket MudahBayar',
+    description: 'Integrasi API RajaBiller untuk fitur tiket dan pengembangan alur transaksi MudahBayar.',
+    tags: ['Fullstack', 'Integrasi API', 'RajaBiller'],
   },
 ]
 </script>

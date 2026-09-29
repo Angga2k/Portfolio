@@ -3,18 +3,19 @@ import ScrollReveal from './ScrollReveal.vue'
 import CertSection from './CertSection.vue'
 
 const focusAreas = [
+  'Fullstack Development',
+  'Android Development',
   'Rekayasa Perangkat Lunak',
+  'Frontend Development',
   'Pengembangan Backend',
   'Machine Learning',
-  'Computer Vision',
   { name: 'Kepemimpinan Organisasi', muted: true },
 ]
 
 const tools = [
-  'Python', 'Golang', 'TypeScript', 'React', 'Next.js',
-  'Node.js', 'Express.js', 'Laravel', 'Flask', 'Tailwind CSS',
-  'Flutter', 'TensorFlow', 'YOLOv8', 'OpenCV', 'REST API',
-  'MySQL', 'PostgreSQL', 'Firebase', 'Docker', 'Linux', 'Git', 'GitHub',
+  'JavaScript', 'TypeScript', 'Python', 'Java', 'PHP', 'C#', 'Kotlin', 'Dart',
+  'ReactJS', 'Next.js', 'Node.js', 'Express', 'Laravel', '.NET', 'Flutter',
+  'Microsoft Office',
 ]
 </script>
 

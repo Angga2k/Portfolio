@@ -1,9 +1,10 @@
 <script setup lang="ts">
 const items = [
-  'TERBUKA UNTUK MAGANG', '★',
-  'BACKEND ENGINEERING', '★',
+  'FULLSTACK DEVELOPMENT', '★',
+  'ANDROID DEVELOPMENT', '★',
+  'FRONTEND · REACT', '★',
+  'BACKEND · LARAVEL', '★',
   'MACHINE LEARNING', '★',
-  'COMPUTER VISION', '★',
   'UNIVERSITAS JEMBER', '★',
 ]
 </script>

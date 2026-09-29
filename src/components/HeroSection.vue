@@ -17,19 +17,19 @@ useSpotlight(heroRef)
 
     <div class="px-4 sm:px-6 md:px-8 lg:px-12 pt-6 md:pt-[30px] flex justify-between font-mono text-[11px] sm:text-[12px] md:text-[13px] tracking-[.08em] text-subtle">
       <span class="hidden sm:inline">00 — INDEKS</span>
-      <span class="text-[10px] sm:text-[11px] md:text-[13px]">PROBOLINGGO · JAWA TIMUR · ID</span>
+      <span class="text-[10px] sm:text-[11px] md:text-[13px]">JEMBER · JAWA TIMUR · ID</span>
     </div>
 
     <div class="px-4 sm:px-6 md:px-8 lg:px-12 pt-6 md:pt-[30px] pb-8 md:pb-11 grid grid-cols-1 lg:grid-cols-[1fr_340px] gap-8 md:gap-10 lg:gap-12 items-end">
       <div>
         <div class="font-mono text-[11px] sm:text-[12px] md:text-[14px] tracking-[.14em] text-accent mb-4 md:mb-5">
-          SOFTWARE ENGINEER / BACKEND / MACHINE LEARNING
+          FULLSTACK &amp; ANDROID DEVELOPER
         </div>
         <h1 class="font-bricolage font-extrabold leading-[.88] tracking-[-.035em] text-[48px] sm:text-[64px] md:text-[84px] lg:text-[108px] xl:text-[132px] m-0">
           Angga Dwi<br>Kurniawan
         </h1>
         <p class="max-w-[560px] text-[15px] sm:text-[16px] md:text-[18px] lg:text-[19px] leading-[1.6] md:leading-[1.55] text-[#bdbab3] mt-5 md:mt-7 m-0">
-          Saya membangun aplikasi web yang skalabel dan sistem bertenaga AI — mulai dari REST API dan platform full-stack hingga riset computer vision dengan YOLOv8.
+          Saya mengerjakan aplikasi web dari frontend hingga backend, serta aplikasi Android. Di AgroVision, saya mengembangkan aplikasi mobile dengan model CNN.
         </p>
         <div class="flex flex-col sm:flex-row gap-3 sm:gap-3.5 mt-6 md:mt-[30px]">
           <a
@@ -58,16 +58,16 @@ useSpotlight(heroRef)
 
     <div class="grid grid-cols-2 md:grid-cols-4 border-t border-border">
       <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-r border-border">
-        <StatCounter :value="4" suffix="+" label="TAHUN BELAJAR" :isAccent="true" />
+        <StatCounter :value="3" suffix="+" label="TAHUN DI ORGANISASI" :isAccent="true" />
       </div>
       <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] md:border-r border-border">
-        <StatCounter :value="10" suffix="+" label="PROYEK DIBANGUN" />
+        <StatCounter :value="3" suffix="+" label="WEBSITE HMIF" />
       </div>
       <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-r border-t md:border-t-0 border-border">
-        <StatCounter :value="1" :pad="true" label="MAGANG INDUSTRI" />
+        <StatCounter :value="6" suffix="+" :pad="true" label="KEPANITIAAN" />
       </div>
       <div class="px-4 sm:px-5 md:px-6 lg:px-[28px] py-5 md:py-[26px] border-t md:border-t-0 border-border">
-        <StatCounter :value="1" :pad="true" label="PROGRAM ML · BANGKIT" />
+        <StatCounter :value="1" :pad="true" label="PROGRAM BANGKIT" />
       </div>
     </div>
   </section>

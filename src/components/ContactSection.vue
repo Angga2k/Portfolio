@@ -71,10 +71,10 @@ const contacts = [
     <div class="px-4 sm:px-6 md:px-8 lg:px-12 py-10 md:py-12 lg:py-[54px] border-b lg:border-b-0 lg:border-r border-border">
       <div class="font-mono text-[11px] sm:text-[12px] md:text-[13px] tracking-[.12em] text-accent">06 — KONTAK</div>
       <h2 class="font-bricolage font-extrabold text-[28px] sm:text-[34px] md:text-[38px] lg:text-[46px] tracking-[-.03em] leading-[.98] mt-4 md:mt-[18px] mb-4 md:mb-[18px]">
-        Mari membangun sesuatu bersama.
+        Untuk kerja sama proyek, hubungi saya.
       </h2>
       <p class="text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[1.65] md:leading-[1.6] text-muted m-0 mb-6 md:mb-[30px] max-w-[380px]">
-        Terbuka untuk magang dan kolaborasi di bidang backend engineering, software, dan machine learning.
+        Saya mengerjakan aplikasi web fullstack dan Android. Saya juga pernah menerapkan model CNN di AgroVision.
       </p>
       <div class="flex flex-col gap-[2px]">
         <a

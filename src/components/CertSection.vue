@@ -7,17 +7,17 @@ interface Certification {
 }
 
 const certs: Certification[] = [
-  { name: 'Advanced Computer Vision with TensorFlow', issuer: 'BANGKIT \'24' },
-  { name: 'Supervised Machine Learning', issuer: 'BANGKIT \'24' },
-  { name: 'Custom Models, Layers & Loss Functions', issuer: 'BANGKIT \'24' },
-  { name: 'Unsupervised Learning, Recommenders & RL', issuer: 'BANGKIT \'24' },
+  { name: 'Studi Independen Bersertifikat · Batch 7', issuer: 'BANGKIT · 2024' },
+  { name: 'Beasiswa KIP Kuliah', issuer: 'Kemendikbudristek · 4 tahun' },
+  { name: 'Juara 2 Kompetisi UI/UX Tingkat Provinsi', issuer: 'UPT PTKK · 2022' },
+  { name: 'Top 5 Lomba Kompetensi Siswa Wilker 3 Jawa Timur', issuer: '2022' },
 ]
 </script>
 
 <template>
   <div>
     <div class="border-t border-border px-4 sm:px-6 md:px-8 lg:px-12 pt-8 md:pt-10 lg:pt-[42px] pb-3 font-mono text-[11px] sm:text-[12px] md:text-[13px] tracking-[.12em] text-accent">
-      05 — SERTIFIKASI
+      05 — PENCAPAIAN
     </div>
     <div class="grid grid-cols-1 md:grid-cols-2">
       <div
